@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #e0e0e0; /* Light text color */
+}
+
+header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h1 {
+    color: #bb86fc; /* A light purple color for the heading */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #1e1e1e; /* Darker background for links */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slightly darker shadow on hover */
+}
+
+.profile-link i {
+    font-size: 2rem;
+    color: #bb86fc; /* Light purple color for icons */
+    width: 40px;
+    text-align: center;
+}
+
+.profile-link a {
+    color: #03dac6; /* Light teal color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-link a:hover {
+    text-decoration: underline;
+}
